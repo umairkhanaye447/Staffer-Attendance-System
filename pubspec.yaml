@@ -1,0 +1,41 @@
+name: timeclock
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: 
+  auto_size_text:
+  get:
+  analog_clock:
+  camera: 
+  cupertino_icons:
+  intl: 
+  bloc: 
+  equatable:
+  shared_preferences:
+  flutter_spinkit: 
+  blurry_modal_progress_hud: 
+  modal_progress_hud_nsn: 
+  http:
+  flutter_bloc:
+  dio: ^5.6.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 
+flutter:
+  uses-material-design: true
+
+  assets:
+    - imagesvg/
